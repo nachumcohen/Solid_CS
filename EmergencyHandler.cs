@@ -8,5 +8,9 @@ namespace Solid_Principle
 {
     internal class EmergencyHandler
     {
+        public void EmergencyShutdown()
+        {
+            Console.WriteLine("Emergency shutdown triggered!");
+        }
     }
 }

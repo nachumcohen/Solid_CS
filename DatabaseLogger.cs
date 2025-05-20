@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    internal class DatabaseLogger
+    internal class DatabaseLogger : ILogger
     {
+        public void creatLog(string x, string y)
+        {
+            Console.WriteLine("DatabaseLogger ");
+        }
     }
 }
